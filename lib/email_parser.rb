@@ -12,7 +12,7 @@ class EmailParser
 
 def parse
   a = @emails
-  a.split(/,\ /)
+  a.split(/,\  /)
 end
 # binding.pry
 # puts "<E<E"
