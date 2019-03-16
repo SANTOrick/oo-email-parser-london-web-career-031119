@@ -10,7 +10,8 @@ class EmailParser
   end
 
 def parse
-  self.split(',')
+  a = self
+  split(',')
 end
 
 
