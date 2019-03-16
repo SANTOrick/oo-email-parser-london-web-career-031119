@@ -9,7 +9,7 @@ class EmailParser
     @emails = emails
   end
 
-def parse(
+def parse
   emails.split(',')
 end
 
