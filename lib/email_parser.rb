@@ -5,12 +5,11 @@
 class EmailParser
   attr_accessor :test1, :test2
 
-  def initialize(test1, test2)
-    @test1 = test1
-    @test2 = test2
+  def initialize()
   end
 
-def parse
+def parse(emails)
+  emails.split(',')
 
 end
 
