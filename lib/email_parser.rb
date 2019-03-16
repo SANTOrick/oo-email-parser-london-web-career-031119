@@ -12,6 +12,8 @@ class EmailParser
 
 def parse
   a = @emails
+  delimiters = [',', ' ']
+  word.split(Regexp.union(delimiters))
   a.split(/,\ /)
 end
 # binding.pry
