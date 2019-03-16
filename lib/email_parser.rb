@@ -12,7 +12,7 @@ class EmailParser
 
 def parse
   a = @emails
-  delimiters = [',', ' ']
+  delimiters = [', ', ' ']
   a.split(Regexp.union(delimiters))
 end
 # binding.pry
