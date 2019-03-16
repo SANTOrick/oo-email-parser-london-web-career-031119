@@ -13,8 +13,7 @@ class EmailParser
 def parse
   a = @emails
   delimiters = [',', ' ']
-  word.split(Regexp.union(delimiters))
-  a.split(/,\ /)
+  a.split(Regexp.union(delimiters))
 end
 # binding.pry
 # puts "<E<E"
