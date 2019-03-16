@@ -12,7 +12,7 @@ class EmailParser
 
 def parse
   a = self
-  a.emails.split(',')
+  self.name.split(',')
 end
 binding.pry
 puts "<E<E"
